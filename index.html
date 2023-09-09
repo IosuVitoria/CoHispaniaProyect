@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harry Potter Characters</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="shortcut icon" href="./assets/logo.png" type="image/x-icon">
+    <script src="./script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <header class="container__header">
+            <h1 class="container__h1">Harry Potter personajes de la API</h1>
+            <img src="./assets/logo__wizarding.jpg" alt="logo wizarding" class="logo__wizarding">
+            <div class="header__filters">
+                <input type="text" id="name-filter" placeholder="Filtrar por nombre" class="container__filter">
+                <button class="container__reset" id="reset-button">Reiniciar búsqueda</button>
+            </div>
+        </header>
+        <div class="characters-list" id="characters-list">
+        </div>
+        <div class="pagination" id="pagination"></div>
+    </div>
+</body>
+</html>
